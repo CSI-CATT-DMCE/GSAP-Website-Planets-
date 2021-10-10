@@ -1,4 +1,4 @@
-@import url("https://fonts.cdnfonts.com/css/alphacentauri");
+@import url("http://fonts.cdnfonts.com/css/alphacentauri");
 
 .container {
   width: 600%;
@@ -16,7 +16,7 @@ body {
   margin: 0;
   height: 100%;
   -webkit-overflow-scrolling: touch;
-  font-family: AlphaCentauri, sans-serif, Arial;
+  font-family: "AlphaCentauri", sans-serif, Arial;
   background-color: black;
 }
 
