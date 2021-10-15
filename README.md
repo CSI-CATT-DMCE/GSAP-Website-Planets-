@@ -17,5 +17,10 @@ View the <a href="https://greensock.com/docs">full documentation here</a>, inclu
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
 ```
 Click the green "Get GSAP Now" button at <a href="https://greensock.com/?download=GSAP-JS">greensock.com</a> for more options and installation instructions, including CDN URLs for various plugins. 
-##About the website 
-Languages- Html, Css, Javascript and GSAP for animation.
+## About the website 
+### Languages- Html, Css, Javascript and GSAP for animation.
+## Features
+- Planet themed website.
+- Horizontal scroll
+- Graphical animation with ScrollTrigger and Parallax effect.
+
