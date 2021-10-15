@@ -23,5 +23,6 @@ Click the green "Get GSAP Now" button at <a href="https://greensock.com/?downloa
 - Planet themed website.
 - Horizontal scroll
 - Graphical animation with ScrollTrigger and Parallax effect.
+## Website overview
 ![landing page](https://user-images.githubusercontent.com/71343258/137476794-08046b51-f892-47d7-8d10-3ab7cf165c9a.PNG)
 ![mercury](https://user-images.githubusercontent.com/71343258/137476914-89bc6070-e9a8-4201-850e-6b5c7f297765.PNG)
