@@ -29,3 +29,5 @@ Click the green "Get GSAP Now" button at <a href="https://greensock.com/?downloa
 ![landing page](https://user-images.githubusercontent.com/71343258/137476794-08046b51-f892-47d7-8d10-3ab7cf165c9a.PNG)
 ### On Scroll
 ![mercury](https://user-images.githubusercontent.com/71343258/137476914-89bc6070-e9a8-4201-850e-6b5c7f297765.PNG)
+![earth](https://user-images.githubusercontent.com/71343258/137479363-f674b591-a070-43c5-ac07-3408609abfe2.PNG)
+
