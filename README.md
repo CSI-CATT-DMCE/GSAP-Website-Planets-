@@ -21,6 +21,7 @@ Click the green "Get GSAP Now" button at <a href="https://greensock.com/?downloa
 ### Languages- Html, Css, Javascript and GSAP for animation.
 ## Features
 - Planet themed website.
+- Used GSAP for graphical animation.
 - Horizontal scroll
 - Graphical animation with ScrollTrigger and Parallax effect.
 ## Website overview
