@@ -32,7 +32,7 @@ Click the green "Get GSAP Now" button at <a href="https://greensock.com/?downloa
 
 ![earth](https://user-images.githubusercontent.com/71343258/137479363-f674b591-a070-43c5-ac07-3408609abfe2.PNG)
 
+#### Maintainer
+* [Ruchita S.](https://github.com/ruchi-115)
 
-### Contributor : https://github.com/ruchi-115
-### Email- ruchitasonawale115@gmail.com
 
