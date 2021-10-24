@@ -24,11 +24,25 @@ var parallaxInstance = new Parallax(mercury);
 var venus = document.getElementById("venus");
 var parallaxInstance = new Parallax(venus);
 
+var earth = document.getElementById("earth");
+var parallaxInstance = new Parallax(earth);
+
 var mars = document.getElementById("mars");
 var parallaxInstance = new Parallax(mars);
 
-var earth = document.getElementById("earth");
-var parallaxInstance = new Parallax(earth);
+var jupiter = document.getElementById("jupiter");
+var parallaxInstance = new Parallax(jupiter);
+
+var saturn = document.getElementById("saturn");
+var parallaxInstance = new Parallax(saturn);
+
+var uranus = document.getElementById("uranus");
+var parallaxInstance = new Parallax(uranus);
+
+var neptune = document.getElementById("neptune");
+var parallaxInstance = new Parallax(neptune);
+
+
 
 // arrow animations
 

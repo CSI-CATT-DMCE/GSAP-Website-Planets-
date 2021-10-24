@@ -1,151 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Planets</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
-    />
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <header>
-      <h1>♾</h1>
-    </header>
-    <!-- Landing page -->
-    <div class="container">
-      <div class="description panel screen">
-        <div>
-          <div id="scene">
-            <div data-depth="0.1" class="bg">
-              <img src="images/background.png" alt="" />
-            </div>
-            <div data-depth="0.2" class="rock1">
-              <img src="images/rock.png" alt="" />
-            </div>
-            <div data-depth="1.2" class="earth">
-              <img src="images/earth.png" alt="" />
-            </div>
-            <div data-depth="0.1" class="text">
-              <h1>Planets</h1>
-            </div>
-            <div data-depth="0.4" class="mid">
-              <img src="images/mid.png" alt="" />
-            </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Planets</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>♾</h1>
+  </header>
+  <!-- Landing page -->
+  <div class="container">
+    <div class="description panel screen">
+      <div>
+        <div id="scene">
+          <div data-depth="0.1" class="bg">
+            <img src="images/background.png" alt="" />
           </div>
-          <div class="scroll-down">
-            Scroll
-            <div class="arrow"></div>
+          <div data-depth="0.2" class="rock1">
+            <img src="images/rock.png" alt="" />
           </div>
+          <div data-depth="1.2" class="earth">
+            <img src="images/earth.png" alt="" />
+          </div>
+          <div data-depth="0.1" class="text">
+            <h1>Planets</h1>
+          </div>
+          <div data-depth="0.4" class="mid">
+            <img src="images/mid.png" alt="" />
+          </div>
+        </div>
+        <div class="scroll-down">
+          Scroll
+          <div class="arrow"></div>
         </div>
       </div>
-      <!-- Mercury -->
-      <section class="panel screen">
-        <div id="mercury">
-          <div data-depth="0.1" class="bg">
-            <img src="images/milkybg.jpg" alt="" />
-          </div>
-          <div data-depth="0.2" class="rock1">
-            <img src="images/rock.png" alt="" />
-          </div>
-          <div data-depth="1.2" class="earth">
-            <img src="images/mercury.png" alt="" />
-          </div>
-          <div data-depth="0" class="text">
-            <h1>
-              Mercury<br />
-              <span>ORBIT PERIOD: 87.97 Earth Days</span><br />
-              <span> MOONS: None</span>
-            </h1>
-          </div>
-          <div data-depth="0.1" class="fore">
-            <img src="images/foreground.png" alt="" />
-          </div>
-        </div>
-      </section>
-      <!-- Venus -->
-      <section class="panel screen">
-        <div id="venus">
-          <div data-depth="0.1" class="bg">
-            <img src="images/asteroid-backgrounds.png" alt="" />
-          </div>
-          <div data-depth="0.2" class="rock1">
-            <img src="images/rock.png" alt="" />
-          </div>
-          <div data-depth="1.2" class="earth">
-            <img src="images/venus.png" alt="" />
-          </div>
-          <div data-depth="0.1" class="text">
-            <h1>
-              Venus
-              <span>ORBIT PERIOD: 224.70 Earth days</span><br />
-              <span> MOONS: None</span>
-            </h1>
-          </div>
-          <div data-depth="0.4" class="mid">
-            <img src="images/mid.png" alt="" />
-          </div>
-        </div>
-      </section>
-      <!-- Earth -->
-      <section class="panel screen">
-        <div id="earth">
-          <div data-depth="0.1" class="bg">
-            <img src="images/milkybg.jpg" alt="" />
-          </div>
-          <div data-depth="0.2" class="rock1">
-            <img src="images/rock.png" alt="" />
-          </div>
-          <div data-depth="1.2" class="earth">
-            <img src="images/earth1.png" alt="" />
-          </div>
-          <div data-depth="0.1" class="text">
-            <h1>
-              Earth<br />
-              <span>ORBIT PERIOD: 365.26 Earth days</span><br />
-              <span> MOONS: 1</span>
-            </h1>
-          </div>
-          <div data-depth="0.4" class="mid">
-            <img src="images/mid.png" alt="" />
-          </div>
-          <div data-depth="0.1" class="fore">
-            <img src="images/foreground.png" alt="" />
-          </div>
-        </div>
-      </section>
-      <!-- Mars -->
-      <section class="panel screen">
-        <div id="mars">
-          <div data-depth="0.1" class="bg">
-            <img src="images/milkybg.jpg" alt="" />
-          </div>
-          <div data-depth="0.2" class="rock1">
-            <img src="images/rock.png" alt="" />
-          </div>
-          <div data-depth="1.2" class="earth">
-            <img src="images/mars.png" alt="" />
-          </div>
-          <div data-depth="0.1" class="text">
-            <h1>
-              Mars
-              <span>ORBIT PERIOD: 686.98 E days</span>
-              <span> MOONS: 2</span>
-            </h1>
-          </div>
-          <div data-depth="0.1" class="fore">
-            <img src="images/foreground.png" alt="" />
-          </div>
-        </div>
-      </section>
-      <!-- Add your code here -->
-      <section class="panel gray">FIVE</section>
     </div>
+    <!-- Mercury -->
+    <section class="panel screen">
+      <div id="mercury">
+        <div data-depth="0.1" class="bg">
+          <img src="images/milkybg.jpg" alt="" />
+        </div>
+        <div data-depth="0.2" class="rock1">
+          <img src="images/rock.png" alt="" />
+        </div>
+        <div data-depth="1.2" class="earth">
+          <img src="images/mercury.png" alt="" />
+        </div>
+        <div data-depth="0" class="text">
+          <h1>
+            Mercury<br />
+            <span>ORBIT PERIOD: 87.97 Earth Days</span><br />
+            <span> MOONS: None</span>
+          </h1>
+        </div>
+        <div data-depth="0.1" class="fore">
+          <img src="images/foreground.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- Venus -->
+    <section class="panel screen">
+      <div id="venus">
+        <div data-depth="0.1" class="bg">
+          <img src="images/asteroid-backgrounds.png" alt="" />
+        </div>
+        <div data-depth="0.2" class="rock1">
+          <img src="images/rock.png" alt="" />
+        </div>
+        <div data-depth="1.2" class="earth">
+          <img src="images/venus.png" alt="" />
+        </div>
+        <div data-depth="0.1" class="text">
+          <h1>
+            Venus
+            <span>ORBIT PERIOD: 224.70 Earth days</span><br />
+            <span> MOONS: None</span>
+          </h1>
+        </div>
+        <div data-depth="0.4" class="mid">
+          <img src="images/mid.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- Earth -->
+    <section class="panel screen">
+      <div id="earth">
+        <div data-depth="0.1" class="bg">
+          <img src="images/milkybg.jpg" alt="" />
+        </div>
+        <div data-depth="0.2" class="rock1">
+          <img src="images/rock.png" alt="" />
+        </div>
+        <div data-depth="1.2" class="earth">
+          <img src="images/earth1.png" alt="" />
+        </div>
+        <div data-depth="0.1" class="text">
+          <h1>
+            Earth<br />
+            <span>ORBIT PERIOD: 365.26 Earth days</span><br />
+            <span> MOONS: 1</span>
+          </h1>
+        </div>
+        <div data-depth="0.4" class="mid">
+          <img src="images/mid.png" alt="" />
+        </div>
+        <div data-depth="0.1" class="fore">
+          <img src="images/foreground.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- Mars -->
+    <section class="panel screen">
+      <div id="mars">
+        <div data-depth="0.1" class="bg">
+          <img src="images/milkybg.jpg" alt="" />
+        </div>
+        <div data-depth="0.2" class="rock1">
+          <img src="images/rock.png" alt="" />
+        </div>
+        <div data-depth="1.2" class="earth">
+          <img src="images/mars.png" alt="" />
+        </div>
+        <div data-depth="0.1" class="text">
+          <h1>
+            Mars
+            <span>ORBIT PERIOD: 686.98 E days</span>
+            <span> MOONS: 2</span>
+          </h1>
+        </div>
+        <div data-depth="0.1" class="fore">
+          <img src="images/foreground.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- Add your code here -->
+    <!-- Jupiter -->
+    <section class="panel screen">
+      <div id="jupiter">
+        <div data-depth="0.1" class="bg">
+          <img src="images/asteroid-backgrounds.png" alt="" />
+        </div>
+        <div data-depth="0.2" class="rock1">
+          <img src="images/rock.png" alt="" />
+        </div>
+        <div data-depth="1.2" class="earth">
+          <img src="images/jupiter.png" alt="" />
+        </div>
+        <div data-depth="0.1" class="text">
+          <h1>
+            Jupiter<br />
+            <span>ORBIT PERIOD: 4,332.82 Earth days</span><br />
+            <span> MOONS: 79</span>
+          </h1>
+        </div>
+        <div data-depth="0.1" class="fore">
+          <img src="images/foreground.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- Saturn -->
+    <section class="panel screen">
+      <div id="saturn">
+        <div data-depth="0.1" class="bg">
+          <img src="images/milkybg.jpg" alt="" />
+        </div>
+        <div data-depth="0.2" class="rock1">
+          <img src="images/rock.png" alt="" />
+        </div>
+        <div data-depth="1.2" class="earth">
+          <img src="images/saturn.png" alt="" />
+        </div>
+        <div data-depth="0.1" class="text">
+          <h1>
+            Saturn<br />
+            <span>ORBIT PERIOD: 10,755.70 Earth days</span><br />
+            <span> MOONS: 82</span>
+          </h1>
+        </div>
+      </div>
+    </section>
+    <!-- Uranus -->
+    <section class="panel screen">
+      <div id="uranus">
+        <div data-depth="0.1" class="bg">
+          <img src="images/asteroid-backgrounds.png" alt="" />
+        </div>
+        <div data-depth="0.2" class="rock1">
+          <img src="images/rock.png" alt="" />
+        </div>
+        <div data-depth="1.2" class="earth">
+          <img src="images/uranus.png" alt="" />
+        </div>
+        <div data-depth="0.1" class="text">
+          <h1>
+            Uranus<br />
+            <span>ORBIT PERIOD: 30,687.15 Earth days</span><br />
+            <span> MOONS: 27</span>
+          </h1>
+        </div>
+        <div data-depth="0.4" class="mid">
+          <img src="images/mid.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- Neptune -->
+    <section class="panel screen">
+      <div id="neptune">
+        <div data-depth="0.1" class="bg">
+          <img src="images/milkybg.jpg" alt="" />
+        </div>
+        <div data-depth="0.2" class="rock1">
+          <img src="images/rock.png" alt="" />
+        </div>
+        <div data-depth="1.2" class="earth">
+          <img src="images/neptune.png" alt="" />
+        </div>
+        <div data-depth="0.1" class="text">
+          <h1>
+            Neptune<br />
+            <span>ORBIT PERIOD: 60,190.03 Earth days</span><br />
+            <span> MOONS: 14</span>
+          </h1>
+        </div>
+        <div data-depth="0.4" class="mid">
+          <img src="images/mid.png" alt="" />
+        </div>
+        <div data-depth="0.1" class="fore">
+          <img src="images/foreground.png" alt="" />
+        </div>
+      </div>
+    </section>
+  </div>
 
-    <script src="https://assets.codepen.io/16327/ScrollTrigger.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
-    <script src="./script.js"></script>
-  </body>
+  <script src="https://assets.codepen.io/16327/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+
 </html>
