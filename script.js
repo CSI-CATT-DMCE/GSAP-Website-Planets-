@@ -33,14 +33,7 @@ var parallaxInstance = new Parallax(mars);
 var jupiter = document.getElementById("jupiter");
 var parallaxInstance = new Parallax(jupiter);
 
-var saturn = document.getElementById("saturn");
-var parallaxInstance = new Parallax(saturn);
 
-var uranus = document.getElementById("uranus");
-var parallaxInstance = new Parallax(uranus);
-
-var neptune = document.getElementById("neptune");
-var parallaxInstance = new Parallax(neptune);
 
 
 
