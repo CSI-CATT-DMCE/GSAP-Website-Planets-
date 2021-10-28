@@ -41,16 +41,35 @@ body {
 }
 
 /* HEADER */
-header {
+#navbar {
+  display: flex;
   position: fixed;
+  align-items: center;
+  justify-content: space-around;
   top: 0px;
   left: 0px;
-  padding: 6px 10px 10px 10px;
-  border-bottom-right-radius: 26px;
+  width: 100%;
   z-index: 100;
-  background-color: rgba(0, 0, 0, 0.5);
   color: white;
-  will-change: transform;
+  padding: 5px;
+}
+.logo{
+  font-size: 35px;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+.nav-ul{
+  display: flex;
+}
+.nav-ul li{
+  list-style: none;
+  margin: 0px 10px;
+}
+.nav-ul li a{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
 }
 
 /* SCROLL DOWN */
@@ -73,6 +92,7 @@ header {
   height: 20px;
   background-image: url(./images/arrowdown.svg);
   background-size: contain;
+    cursor: pointer;
 }
 /**************************************************/
 
