@@ -39,7 +39,8 @@ var parallaxInstance = new Parallax(saturn);
 var uranus = document.getElementById("uranus");
 var parallaxInstance = new Parallax(uranus);
 
-
+var neptune = document.getElementById("neptune");
+var parallaxInstance = new Parallax(neptune);
 
 // arrow animations
 
@@ -48,6 +49,6 @@ let arrow = document.querySelector(".arrow");
 if (arrow) {
   gsap.to(arrow, { y: 12, ease: "power1.inOut", repeat: -1, yoyo: true });
 }
-function move(x,y){
-  window.scrollTo(x,y);
+function move(x, y) {
+  window.scrollTo(x, y);
 }
