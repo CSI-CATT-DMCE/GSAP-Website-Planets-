@@ -36,6 +36,9 @@ var parallaxInstance = new Parallax(jupiter);
 var saturn = document.getElementById("saturn");
 var parallaxInstance = new Parallax(saturn);
 
+var uranus = document.getElementById("uranus");
+var parallaxInstance = new Parallax(uranus);
+
 
 
 // arrow animations
